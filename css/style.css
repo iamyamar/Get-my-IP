@@ -1,0 +1,69 @@
+/*Background color*/
+#bcolor {
+    background-color: #DACFCF;
+}
+.logoo{
+	cursor: pointer;
+}
+.iconn{
+	cursor: pointer;
+
+}
+/*small head design */
+#smhead {
+    margin-bottom: 5px;
+    background-color: white;
+    height: 60px;
+}
+#smhead h1{
+	font-size: 25px;
+}
+/*medium head design */
+#mihead {
+	
+    margin-bottom: 5px;
+    background-color: white;
+    height: 65px;
+    
+}
+#mihead h1{
+	font-size: 35px;
+}
+#lghead{
+	height: 100%;
+	background-color: #E2BABA;
+	position: fixed;
+}
+/*heading design */
+h1{
+	font-family: 'Chelsea Market', cursive;
+}
+#firstbox{
+	height: 250px;
+	background-image: url("../Images/girl.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: white;
+
+}
+#innerbox{
+	height: 200px;
+	width: 80%;
+	float: right;
+	background-color: transparent;
+}
+/*for smaller and medium screen */ 
+@media screen and (max-width: 991px) {
+	#imgg{
+		width: 350px;
+		height: 280px;
+		padding: 20px;
+}
+
+/*for larger screen */
+@media screen and (min-width: 992px) {
+	#maincc{
+		float: left;
+	}
+}
+
